@@ -33,6 +33,7 @@ async function loginWithEth() {
 
     //     // edit text from "Address" to "0x123..."
         document.querySelector('.walletAddress').innerHTML = await signer.getAddress();
+        document.querySelector('.headText').innerHTML = "Your address:"
     // } else {
     //     alert('You must install MetaMask')
     // }
